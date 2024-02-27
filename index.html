@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smitu Barot Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0bbd94ca21.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+   <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, i'm <span>Smitu</span> Barot</h1>
+            </div>
+        </div>
+   </div>
+   <!-- here we add about -->
+   <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/myphoto-PhotoRoom.png-PhotoRoom.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Highly innovative and detail-oriented IT professional with experience working as Web Developer in IT industry. Certified SAFe Agilist and SAFe DevOps Practioner. Holds master degree in Information Technology.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>UI / UX</span><br>Designing Web / App interface</li>
+                            <li><span>Manual & Automation Testing</span><br>Testing Web Application / Database / API</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-Present</span><br>Web Developer at 8.Dots</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>Masters of Information Technology from CQU Australia</li>
+                            <li><span>2016</span><br>Bachelors of Information Technology from GTU Ahmedabad</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>Present</span><br>The Complete 2024 Web Development Bootcamp at Udemy</li>
+                            <li><span>2024</span><br>The Complete JAVA Certification at Udemy</li>
+                            <li><span>2023</span><br>SAFe® 6 DevOps Practitioner Certificate from Scaled Agile</li>
+                            <li><span>2023</span><br>SAFe® 6 Agilist Certificate from Scaled Agile</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>    
+   </div>
+   
+   <!-- ----------Portfolio ---------------- -->
+   <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub*title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/My Portfolio.png">
+                    <div class="layer">
+                        <h3 >My Portfolio</h3><br>
+                        <p>Develop Portfolio web app who gave you information about me. Used HTML, CSS & Javascript.</p>
+                        <a href="" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/BeFunky-collage-8.jpg">
+                    <div class="layer">
+                        <h3 >TinDog Web Application</h3><br>
+                        <p>Develop web app using HTML/CSS and Bootstrap for dogs meetup</p>
+                        <a href="https://smitujbarot.github.io/TinDog-Web-Application/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Manual Testing.jpeg">
+                    <div class="layer">
+                        <h3 >Manual Test Cases</h3><br>
+                        <p>Test cases to verify that CSV file uploaded successfully on website.</p>
+                        <a href="images/Manual Test.pdf" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Amazon.jpeg">
+                    <div class="layer">
+                        <h3 >Automation Test Script</h3><br>
+                        <p>Automation test script for website testing using Selenium WebDriver and java with Automation framework.</p>
+                        <a href="https://github.com/SmituJBarot/AmazonPageObjectModelFramework/tree/master/AmazonTest
+                        " target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/My Repository.png">
+                    <div class="layer">
+                        <h3 >Git Repository</h3><br>
+                        <a href="https://github.com/SmituJBarot?tab=repositories" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+   </div>
+
+   <!-- ----------Services --------- -->
+   <div id="services">
+    <div class container>
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            
+            <div>
+                <i class="fa-solid fa-server"></i>
+                <h2>Web Design</h2>
+                <p>Doing market research and define functionality basis on that. Sketch web app and plan workflow then work according to that.</p>
+                <a href="webDesign.html" target="_blank">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-code-compare"></i>
+                <h2>Web Development</h2>
+                <p>Conduct market research and basis on that create wireframe.Implemented and maintained web applications using Java, Spring Framework, and Hibernate, ensuring high performance and reliability.</p>
+                <a href="WebDevelopment.html" target="_blank">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-file-excel"></i>
+                <h2>Manual Testing</h2>
+                <p>Analyze Business Requirements Document and create manual test Cases for functionality.</p>
+                <a href="ManualTesting.html" target="_blank">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Automation Testing</h2>
+                <p>Implement automation framework with selenium and write automation test script for sunctionality.</p>
+                <a href="AutomationTesting.html" target="_blank">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+   <!-- ----------------Contect---------------- -->
+   <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> smitubrahmbhatt90@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> (519)-501-7791</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/smitubarot/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Barot Smitu Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" cols="6" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Thank you for visiting my website. <i class="fa-solid fa-heart"></i></p>
+        </div>
+   </div>
+   <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+   </script>
+   <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+   </script>
+</body>
+</html>
