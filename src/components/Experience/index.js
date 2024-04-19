@@ -84,7 +84,7 @@ const index = () => {
                     contentArrowStyle={{ borderRight: '10px solid #808080 '}}
                     date="Nov 2021 - present"
                     iconStyle={{ background: '#854CE6', height:'15px', width:'15px', marginLeft:'-7px',marginTop:'23px'}}>
-                    <h3 className="vertical-timeline-element-title" style={{color:'#fff',fontWeight:'600', fontSize:'18px',}}>Web Developer & Designer</h3>
+                    <h3 className="vertical-timeline-element-title" style={{color:'#fff',fontWeight:'600', fontSize:'18px',}}>Software Developer Engineer</h3>
                     <h5 className="vertical-timeline-element-subtitle" style={{color:'#b1b2b3',fontWeight:'500', fontSize:'14px',}}>8.Dots, India</h5>
                     <p>
                     I've worked as a web developer and designer, collaborating with clients to create visually stunning and user-friendly websites. Using HTML, CSS, and JavaScript, I've built responsive interfaces and integrated design principles for seamless navigation. I've also partnered with back-end developers to implement dynamic features and conducted rigorous testing for optimal performance. Through ongoing support and communication, I've maintained strong client relationships and provided valuable insights to achieve their digital objectives.
